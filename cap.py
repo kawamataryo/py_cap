@@ -155,7 +155,7 @@ def form_title(title) :
 # ログファイルの確認、スキップ処理
 log_conf()
 
-# URL取得(list.txt)のファイルより読み込み。履歴ファイルも読み込み。
+# URL取得(list.txt)のファイルより読み込み。
 with open('list.txt','r') as in_file:
 
     # 改行でリストへ分割。さらに左右の空白消去
